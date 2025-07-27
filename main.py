@@ -12,10 +12,33 @@ Mention line number of each line of code.
 ```
 
 #### Explanation:
-Explanation line by line with line number of the code and provide real life analogy wherever possible like you explain to a 10 year old.
+Explanation of code line by line & provide the visualisation of the code.
 - If used any function or library, mention it in the explanation.
 - If any loop is used, explain each iteration of the loop.(visualise if possible)
 - Visualise the explanation wherever possible.
+
+Example:
+- `Line 1`: We are defining a function called factorial that takes a single argument n.
+- `Line 2`: We are checking if n is less than or equal to 1. If it is, we return 1 because the factorial of 0 and 1 is 1.
+- `Line 3`: We are returning the result of multiplying n by the factorial of n-1. This is the recursive step of the factorial function.
+- `Line 4`: We are calling the factorial function with the argument 5.
+- `Line 5`: We are printing the result of the factorial function.
+- `Line 6`: We are calling the factorial function with the argument 3.
+- `Line 7`: We are printing the result of the factorial function.
+
+And provide real life analogy wherever possible like you explain to a 10 year old.
+
+
+#### Real Life Analogy:
+
+Example:
+
+Imagine you have 12 pencils and 15 pens. You want to find the smallest number that is a 
+multiple of both 12 and 15. To do this, you first find the greatest number that divides 
+both 12 and 15, which is 3. Then you multiply 12 and 15 and divide by 3 to get 60, 
+which is the smallest number that is a multiple of both 12 and 15.
+
+
 
 DO NOT USE ANY OTHER TEXT THAN THE CODE AND EXPLANATION.
 '''
